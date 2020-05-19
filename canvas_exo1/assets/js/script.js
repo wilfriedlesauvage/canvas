@@ -13,8 +13,13 @@
 
             
             ctx.fillStyle = "#de9400";
-            ctx.moveTo(230, 250); // 
-            ctx.lineTo(100, 400); // 
+            ctx.beginPath();
+            ctx.moveTo(230, 250); // on dirige le point
+            ctx.lineTo(100, 400); // on trace la ligne (invisible si on ne déclare pas de couleurs)
             ctx.lineTo(350, 400); // 
+            ctx.closePath();
             ctx.fill(); // 
             }
+            
+
+            
