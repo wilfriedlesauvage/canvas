@@ -131,15 +131,15 @@
         ctx.closePath();
 
         //BASSIN
-        ctx.beginPath(); //SOURCILS
-        ctx.strokeStyle='red';
-        ctx.moveTo(260,510);
-        ctx.quadraticCurveTo(275, 350, 290, 420);
-        ctx.stroke();
+        ctx.beginPath(); 
+        ctx.strokeStyle='#a77f4a';
+        ctx.moveTo(260,450);
+        ctx.quadraticCurveTo(295, 400, 310, 450);
+        ctx.fill();
         ctx.closePath();
 
-        ctx.beginPath(); //BOUCHE
-        ctx.strokeStyle='red';
+        ctx.beginPath(); 
+        ctx.strokeStyle='#a77f4a';
         ctx.moveTo(363,570);
         ctx.quadraticCurveTo(335, 620, 311, 570);
         ctx.fill();
